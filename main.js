@@ -14,5 +14,5 @@ if (word != null) {
   document.getElementById("example").innerHTML =
   "I like the word '" + word + "'";
   document.getElementById("subword").innerHTML =
-  "Uppercase: " + word.substring(1, 4);
+  "Subword: " + word.substring(1, 4);
 }
